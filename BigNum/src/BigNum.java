@@ -24,6 +24,7 @@ public class BigNum {
             System.out.println("请检查截取数字位数。");
             return;
         }
+
         BigInteger bigNum = new BigInteger("1"), Addon = new BigInteger("1"), ONE = new BigInteger("1");
         int Times = 0;
         for (; Times < input; Times++) {
